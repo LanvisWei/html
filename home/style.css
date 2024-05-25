@@ -29,6 +29,7 @@ body {
 .header h1 {
     padding: 0 100px;
     color: #AAAAAA;
+    letter-spacing: 5px;
 }
 
 .header h1 .big {
@@ -94,7 +95,7 @@ body {
 .content {
     color: #000000;
     text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 15px #ffffff, 0 0 20px #ffffff;
-    background: url('./share/1.jpg') no-repeat;
+    background: url('../share/1.jpg') no-repeat;
     background-size: 100% auto;
     height: 100vh;
     display: flex;

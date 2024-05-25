@@ -29,6 +29,7 @@ body {
 .header h1 {
     padding: 0 100px;
     color: #AAAAAA;
+    letter-spacing: 5px;
 }
 
 .header h1 .big {
