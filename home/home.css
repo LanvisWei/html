@@ -1,0 +1,24 @@
+.content h1 {
+    padding-top: 100px;
+    padding: 0 100px;
+    color: #666666;
+    letter-spacing: 5px;
+}
+
+.content h1 .big {
+    font-size: 200%;
+    color: #444444;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 15px #ffffff, 0 0 20px #ffffff;
+}
+
+.content h1 .color {
+    font-size: 100%;
+    color: #444444;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 15px #ffffff, 0 0 20px #ffffff;
+}
+
+.content p {
+    padding-right: 150px;
+    color: #CCCCCC;
+    padding-bottom: 15px;
+}
