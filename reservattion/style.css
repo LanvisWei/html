@@ -45,7 +45,7 @@ body {
 }
 
 .header p {
-    font-size: 200%;
+    font-size: 150%;
     padding-right: 150px;
     color: #CCCCCC;
     padding-bottom: 15px;
@@ -104,7 +104,7 @@ body {
 }
 
 .content h2 {
-    font-size: 2vw;
+    font-size: 1vw;
 }
 
 .footer {

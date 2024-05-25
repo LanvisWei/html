@@ -2,12 +2,13 @@
 
 .content{
     position: relative;
-    padding: 300px 100px;
+    padding: 200px 100px;
  
 }
 
 
 .content h2 {
+    font-weight: 900;
     padding: 10px;
 }
 
@@ -17,14 +18,16 @@
 
 .content h4 {
     position: absolute;
-    bottom: 200px;
-    right: -300px;
-    transform: scale(0.05);
+    bottom: 400px;
+    right: 0px;
+    transform: scale(0.1);
     z-index: 800;
 }
 
-.box1{
-    background-color: #fff;
-    padding: 100px;
-
+.content img{
+    /* border: 20px solid #FFFFFF; */
+    /* border-radius: 100px; */
+    background-color: #FFFFFF;
+    opacity: 70%;
+    box-shadow: 0 0 100px #ffffff,0 0 150px #ffffff, 0 0 200px #ffffff,0 0 250px #ffffff, 0 0 300px #ffffff,0 0 350px #ffffff, 0 0 400px #ffffff;
 }
