@@ -1,0 +1,200 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    font-family: Arial, Helvetica, '微軟正黑體', sans-serif;
+    font-size: 18px;
+    /* 1em=30px default=16px*/
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #DDDDDD;
+    padding: 20px;
+    align-items: center;
+}
+
+.header h1 {}
+
+.header ul {}
+
+.header li {
+    float: left;
+    list-style: none;
+}
+
+.header li a {
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.header li a:hover {}
+
+.banner {}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+
+.office {
+    background-color: #222222;
+    display: flex;
+    justify-content: center;
+}
+
+.office .ofbox {
+    width: 25%;
+    background-color: #AAAAAA;
+    margin: 0.5vw;
+    padding: 0.5vw;
+}
+
+.office .ofbox img {
+    max-width: 100%;
+    height: auto;
+}
+
+.office .ofbox p {
+    text-align: center;
+}
+
+.ad {
+    background-color: #444444;
+    display: flex;
+}
+
+.adbox {
+    width: 25%;
+    padding: 0.01vw;
+}
+
+.ad img {
+    width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+
+.nav {
+    background-color: #555555;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav .navbox {
+    width: 25%;
+    height: auto;
+    padding: 0.5vw;
+}
+
+.nav .navbox p {
+    text-align: center;
+}
+
+.nav .navbox ul {}
+
+.nav .navbox li {
+    text-align: center;
+    list-style: none;
+}
+
+.nav .navbox li a {
+    text-decoration: none;
+}
+
+.nav .navbox li a:hover {}
+
+.footer {
+    background-color: #000000;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.footer h2 {}
+
+.footer p {}
+
+@media screen and (max-width:768px) {
+    .header {
+        background-color: #000000;
+    }
+
+    .office {
+        background-color: royalblue;
+        flex-wrap: wrap;
+    }
+
+    .office .ofbox {
+        width: 90%;
+    }
+
+    .ad {
+        background-color: royalblue;
+        flex-wrap: wrap;
+    }
+
+    .adbox {
+        width: 100%;
+        padding: 0.01vw;
+    }
+
+    .ad img {
+        width: 100%;
+        height: auto;
+        vertical-align: bottom;
+    }
+
+    .nav {
+        background-color: royalblue;
+        flex-wrap: wrap;
+    }
+
+    .nav .navbox {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:1200px) {
+    .header {
+        background-color: #FFFFFF;
+    }
+
+    .office {
+        background-color: rosybrown;
+        flex-wrap: wrap;
+    }
+
+    .office .ofbox {
+        width: 45%;
+    }
+
+    .ad {
+        background-color: rosybrown;
+        flex-wrap: wrap;
+    }
+
+    .adbox {
+        width: 49%;
+        padding: 0.01vw;
+    }
+
+    .ad img {
+        width: 100%;
+        height: auto;
+        vertical-align: bottom;
+    }
+
+    .nav {
+        background-color: rosybrown;
+        flex-wrap: wrap;
+    }
+
+    .nav .navbox {
+        width: 48%;
+    }
+}
